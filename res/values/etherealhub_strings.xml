@@ -160,7 +160,26 @@
     <!-- Power menu Animations  -->
     <string name="power_menu_animation">Power menu</string>
 	
-	<!-- QS header image -->
+    <!-- Quick setting categories -->
+    <string name="qs_misc_category">Miscellaneous</string>
+	
+    <!-- QS header image -->
+    <string name="qs_header_image_title">Header image</string>
+    <string name="qs_header_image_summary">Select QS background header image</string>
+    <string name="qs_header_daylight_pack_title">Header image collection</string>
+    <string name="qs_header_shadow_title">Header image shadow</string>
+    <string name="qs_header_shadow_summary">For better visibility on bright images</string>
+    <string name="qs_header_static_provider_title">Static image</string>
+    <string name="qs_header_daylight_provider_title">Image collection</string>
+    <string name="qs_header_file_provider_title">Custom image</string>
+    <string name="qs_header_provider_title">Header provider</string>
+    <string name="qs_header_browse_title">Browse installed headers</string>
+    <string name="qs_header_browse_summary">Browse all available header collections</string>
+    <string name="qs_header_pick_title">Select header image</string>
+    <string name="qs_header_pick_summary">Select an image to use for static mode</string>
+    <string name="qs_header_file_select_title">Select image</string>
+    <string name="qs_header_file_select_summary">Select custom image</string>
+    <string name="qs_header_needs_gallery">You must install a gallery app!</string>    
 
     <!-- Lockscreen -->
     <string name="lockscreen_category">Lockscreen</string>
@@ -298,10 +317,63 @@
     <string name="qs_date_title">Date</string>
     <string name="qs_date_summary">Display date in quick status bar header</string>
 	
-	<!-- Footer -->
-	<string name="qs_footer_category">QS Footer</string>
-	<string name="qs_footer_datausage_title">Data usage</string>
+    <!-- Footer -->
+    <string name="qs_footer_category">QS Footer</string>
+    <string name="qs_footer_datausage_title">Data usage</string>
     <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
+    
+    <!-- QS tiles layout  -->
+    <string name="qs_layout_category_title">Tiles layout</string>
+    <string name="qs_tile_label_hide_title">Hide label</string>
+    <string name="qs_tile_label_size_title">Label text size</string>
+    <string name="qs_tile_label_hide_summary">Only show icon in tile</string>
+    <string name="qs_tile_layout_title">Vertical layout</string>
+    <string name="qs_tile_layout_summary">Show label below icon instead next to icon</string>
+    <string name="qs_layout_columns_rows_title">Columns &amp; rows</string>
+    <string name="qs_layout_columns_rows_summary">Customize QS columns and rows</string>
+    <string name="qs_layout_columns_rows_footer_text">QS rows should be equal or greater than QQS rows. Use higher number of columns for circle / square (A11) QS tile style.</string>
+    <string name="qs_columns_portrait_title">Columns (portrait)</string>
+    <string name="qs_columns_landscape_title">Columns (landscape)</string>
+    <string name="qs_rows_portrait_title">Rows (portrait)</string>
+    <string name="qs_rows_landscape_title">Rows (landscape)</string>
+    <string name="qqs_rows_portrait_title">Quick QS Rows (portrait)</string>
+    <string name="qqs_rows_landscape_title">Quick QS Rows (landscape)</string>    
+
+    <!-- QS Tiles animation  -->
+    <string name="qs_tile_animation_title">Tiles animation</string>
+    <string name="qs_tile_animation_style_title">Animation style</string>
+    <string name="qs_tile_animation_duration_title">Animation duration</string>
+    <string name="qs_tile_animation_interpolator_title">Animation interpolator</string>
+    <string name="qs_tile_animation_style_off">No animation</string>
+    <string name="qs_tile_animation_style_rotate">Rotate</string>
+    <string name="qs_tile_animation_style_flipx">Flip X</string>
+    <string name="qs_tile_animation_style_flipy">Flip Y</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Accelerate</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Decelerate</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Accelerate decelerate</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Bounce</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Overshoot</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipate</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipate overshoot</string>
+
+    <!-- QS Tiles Style -->
+    <string name="qs_tile_ui_style_title">QS tiles style</string>
+    <string name="qs_tile_ui_style_a11_circle">Circle tiles</string>
+    <string name="qs_tile_ui_style_a11_square">Square tiles</string>
+    <string name="qs_tile_ui_style_a11_mix">Circle &amp; Square tiles</string>
+
+    <!-- QS Panel Style -->
+    <string name="qs_panel_style_title">QS panel style</string>
+    <string name="qs_panel_style_outline">Outline</string>
+    <string name="qs_panel_style_two_tone">Two-Tone accent</string>
+    <string name="qs_panel_style_color_pop">Color pop</string>
+    <string name="qs_panel_style_shaded">Shaded</string>
+    <string name="qs_panel_style_cyberpunk">Cyberpunk</string>
+    <string name="qs_panel_style_neumorph">Neumorph</string>
+    <string name="qs_panel_style_reflected">Reflected</string>
+    <string name="qs_panel_style_surround">Surround</string>
+    <string name="qs_panel_style_thin">ThinLine</string>
 
     <!-- Power Menu -->
     <string name="power_menu_title">Power menu</string>
