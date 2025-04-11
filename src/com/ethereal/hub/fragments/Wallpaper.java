@@ -55,7 +55,7 @@ public class Wallpaper extends SettingsPreferenceFragment
           if (preference == mDimLvlPref) {
               android.os.SystemProperties.set("persist.sys.wallpaper.dim_level", newValue.toString());
           }
-          VoltageUtils.showSystemUiRestartDialog(context);
+          EtherealUtils.showSystemUiRestartDialog(context);
           return true;
         }
         return false;
