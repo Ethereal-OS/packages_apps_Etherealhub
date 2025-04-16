@@ -16,6 +16,7 @@
 package com.ethereal.hub.fragments;
 
 import android.content.ContentResolver;
+import android.content.Context;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.provider.Settings;
@@ -108,6 +109,12 @@ public class MonetSettings extends DashboardFragment implements
         mChromaPref.setOnPreferenceChangeListener(this);
         mTintBackgroundPref.setOnPreferenceChangeListener(this);
     }
+    
+    public static void reset(Context mContext) {
+        ContentResolver resolver = mContext.getContentResolver();
+        Settings.Secure.putIntForUser(resolver,
+                Settings.Secure.BERRY_BLACK_THEME, 0, UserHandle.USER_CURRENT);
+    }    
 
     @Override
     public void onResume() {

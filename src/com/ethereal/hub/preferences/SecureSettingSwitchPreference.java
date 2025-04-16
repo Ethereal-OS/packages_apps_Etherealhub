@@ -17,11 +17,16 @@
 package com.ethereal.hub.preferences;
 
 import android.content.Context;
+import android.provider.Settings;
+import android.os.UserHandle;
 import android.util.AttributeSet;
+import android.util.Log;
 
 import androidx.preference.SwitchPreferenceCompat;
 
 public class SecureSettingSwitchPreference extends SwitchPreferenceCompat {
+
+    private static final String TAG = "SecureSettingSwitch";
 
     public SecureSettingSwitchPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
@@ -38,14 +43,24 @@ public class SecureSettingSwitchPreference extends SwitchPreferenceCompat {
         setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
     }
 
-    @Override
-    protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {
+    //@Override
+    //protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {
         // This is what default TwoStatePreference implementation is doing without respecting
         // real default value:
         //setChecked(restoreValue ? getPersistedBoolean(mChecked)
         //        : (Boolean) defaultValue);
         // Instead, we better do
-        setChecked(restoreValue ? getPersistedBoolean((Boolean) defaultValue)
-                : (Boolean) defaultValue);
+       // setChecked(restoreValue ? getPersistedBoolean((Boolean) defaultValue)
+      //          : (Boolean) defaultValue);
+    //}
+    @Override
+    protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {
+        if (!(defaultValue instanceof Boolean)) {
+            Log.e(TAG, "Invalid or missing defaultValue: " + defaultValue);
+            defaultValue = false; // safe fallback
+        }
+
+        setChecked(restoreValue ? getPersistedBoolean((Boolean) defaultValue) 
+            : (Boolean) defaultValue);
     }
 }

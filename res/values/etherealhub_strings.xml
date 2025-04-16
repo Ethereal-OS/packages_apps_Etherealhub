@@ -16,6 +16,8 @@
     <string name="lockscreen_summary">Music visualizer, charging animation, clock style</string>
     <string name="misc_title">Miscellaneous</string>
     <string name="misc_summary">Gaming mode, volume controls</string>
+    <string name="ui_title">UI Enhancements</string>
+    <string name="ui_summary">Font style, Icons styles, Animations styles, Themes and more</string>
     <string name="animations_title">Animations</string>
     <string name="animations_summary">System animations</string>
     <string name="powermenu_title">Power menu</string>
@@ -44,8 +46,14 @@
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
     <string name="default_string">Default</string>
-    <string name="disabled">Disabled</string>
     <string name="none_string">None</string>
+    <string name="discard_changes">Discard changes</string>
+    <string name="never">Never</string>
+    <string name="always">Always</string>
+    <string name="caution">Caution</string>
+    <string name="delete">Delete</string>
+    <string name="delete_message">Remove selected item?</string>
+    <string name="choose_app">Choose app</string>
     <string name="enable">Enable</string>
     <string name="disable">Disable</string>
     
@@ -162,6 +170,9 @@
 	
     <!-- Quick setting categories -->
     <string name="qs_misc_category">Miscellaneous</string>
+    
+    <!-- Media Art categories -->
+    <string name="ls_art_category">Media Art</string>
 	
     <!-- QS header image -->
     <string name="qs_header_image_title">Header image</string>
@@ -230,6 +241,10 @@
 
     <string name="volume_panel_on_left_title">Show volume panel on left</string>
     <string name="volume_panel_on_left_summary">Display volume panel on the left side of the screen</string>
+
+    <!-- Volume panel styles -->
+    <string name="theme_customization_volume_panel_styles_title">Volume panel style</string>
+    <string name="theme_customization_volume_panel_styles_summary">Set custom volume panel style</string>
 
     <!--Volume keys -->
     <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
@@ -310,7 +325,7 @@
     <string name="clock_date_left">Left of time</string>
 
     <!-- QS clock -->
-    <string name="qs_clock_title">Clock</string>
+    <string name="qs_clock_title">QS Clock Styles</string>
     <string name="qs_clock_summary">Display clock in quick status bar header</string>
 
     <!-- QS date -->
@@ -375,6 +390,24 @@
     <string name="qs_panel_style_surround">Surround</string>
     <string name="qs_panel_style_thin">ThinLine</string>
 
+    <!-- Font style / Icon pack -->
+    <string name="theme_customization_font_title">Font style</string>
+    <string name="theme_customization_font_summary">Set system font style</string>
+    <string name="theme_customization_icon_pack_title">Icon pack</string>
+    <string name="theme_customization_icon_pack_summary">Set custom icon pack style</string>
+    <string name="theme_customization_icon_shape_title">Icon shape</string>
+    <string name="theme_customization_icon_shape_summary">Set system icon shape style</string>
+    <string name="theme_customization_signal_icon_title">Signal icon style</string>
+    <string name="theme_customization_signal_icon_summary">Set custom signal icon style</string>
+    <string name="theme_customization_wifi_icon_title">WiFi icon style</string>
+    <string name="theme_customization_wifi_icon_summary">Set custom wifi icon style</string>
+    <string name="theme_customization_navbar_title">Navbar style</string>
+    <string name="theme_customization_navbar_summary">Set custom navigation bar style</string>
+    <string name="theme_customization_lock_clock_title">Clock font style</string>
+    <string name="theme_customization_lock_clock_summary">Set lockscreen clock font style</string>
+    <string name="theme_customization_brightness_slider_title">Brightness slider style</string>
+    <string name="theme_customization_brightness_slider_summary">Set custom brightness slider style</string>
+
     <!-- Power Menu -->
     <string name="power_menu_title">Power menu</string>
     <string name="power_menu_title_summary">View or change power menu entries</string>
@@ -407,6 +440,14 @@
     <!-- Quick Settings brightness icon -->
     <string name="qs_show_auto_brightness_title">Auto brightness icon</string>
     <string name="qs_show_auto_brightness_summary">Show toggle for adaptive brightness near the slider</string>
+
+    <!-- Charging animation -->
+    <string name="charging_animation_title">Charging animation</string>
+    <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
+
+    <!-- Floating rotation button -->
+    <string name="floating_rotation_button_title">Floating rotate button</string>
+    <string name="floating_rotation_button_summary">Show a floating rotate button when device is rotated</string>
 	
     <!-- Privacy indicators -->
     <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
@@ -482,6 +523,18 @@
     <string name="max_alarm_volume_title">Alarms</string>
     <string name="steps_unit">steps</string>
 
+    <!-- Volume Styles -->
+    <string name="revamped_aosp_style">Revamped AOSP UI style</string>
+    <string name="rui_style">Realme UI style</string>
+    <string name="rising_style">Rising UI style</string>
+    <string name="double_layer_style">Double Layer style</string>
+    <string name="gradient_style">Gradient style</string>
+    <string name="neumorph_style">Neumorph style</string>
+    <string name="neumorph_outline_style">Neumorph Outline style</string>
+    <string name="outline_style">Outline style</string>
+    <string name="shaded_layer_style">Shaded Layer style</string>
+    <string name="volume_style_title">Volume panel styles</string>
+
     <!--  screen, setting option summary to change custom timeout -->
     <string name="custom_timeout_summary_never">Never</string>
     <string name="custom_timeout_summary_5secs">5 seconds</string>
@@ -513,6 +566,7 @@
 
     <!-- Screen off animation -->
     <string name="screen_off_animation_title">Screen off animation</string>
+    <string name="screen_off_animation_default">Default</string>
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Scale</string>
 
@@ -571,6 +625,7 @@
     <string name="lockscreen_weather_location_summary">Display current weather location</string>
     <string name="lockscreen_weather_text_title">Current condition</string>
     <string name="lockscreen_weather_text_summary">Display current weather condition summary</string>
+
     <!-- Monet settings -->
     <string name="monet_settings_title">Theming settings</string>
     <string name="monet_settings_sammary">A few extra settings to customize monet engine</string>

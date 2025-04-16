@@ -39,6 +39,13 @@
             android:fragment="com.ethereal.hub.fragments.MonetSettings"
             android:icon="@drawable/ic_etherealhub_theme_settings"/>
 
+        <!-- UI -->
+        <com.ethereal.hub.preferences.etherealhubPreference
+            android:key="ui_category"
+            android:title="@string/ui_title"
+            android:fragment="com.ethereal.hub.fragments.UserInterface"
+            android:icon="@drawable/ic_etherealhub_ui_settings"/>   
+
         <!-- Buttons -->
 	<com.ethereal.hub.preferences.etherealhubPreference
             android:key="button_settings"
